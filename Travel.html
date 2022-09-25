@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="./Travel.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./burdj-al-arab-3840x2160-otel-dubai-puteshestvie-378.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.camel{
+    width: 100px;
+}
+.menu{
+    width: 50px;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 40px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p{
+    color: #fff;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(./IMG_1567.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(./IMG_1567.jpeg);
+}
+.card2{
+    background-image: url(./0d01fa1c73ee94e2618751a04225a1fa.jpg);
+}
+.card3{
+    background-image: url(./A1-77.jpg);
+}
+.card4{
+    background-image: url(./dubai-shared-yacht-tour.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="./Camel-Logo.png" class="camel" alt="axtolik">
+            <nav>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">REGION</a></li>
+                    <li><a href="">ABOUT</a></li>
+                </ul>
+            </nav>
+            <img src="./Menu_icon_icon-icons.com_71858.png" class="menu-icon" alt="xatolik">
+        </div>
+        <div class="row">
+            <div class="colo">
+                <h1>Dubai</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Rerum ratione quaerat accusamus perspiciatis. Commodi 
+                     eaque est iure repellat.</p>
+                     <button type="button">Explore</button>
+            </div>
+            <div class="col">
+                <div class="card card1">
+                    <h5>Motorbike</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card card2">
+                    <h5>Drive Car</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card card3">
+                    <h5>Travel Camel</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card card4">
+                    <h5>Yachting</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
